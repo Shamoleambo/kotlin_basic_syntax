@@ -1,6 +1,9 @@
 fun main() {
-    println("Input your name: ")
+    print("Input your name: ")
     val name = readln()
 
-    println("Name: " + name)
+    print("Input your age: ")
+    val age = readln()
+
+    println("Name: $name - Age: $age")
 }
